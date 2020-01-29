@@ -6,6 +6,7 @@
   <title>love calculator</title>
   <link rel="icon" href="images/favicon (2).ico">
   <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -16,25 +17,29 @@
   </script>
 </head>
 
-<body style="background-image:url('images/heart.png');">
-  <h1 class="mainHeading">Love Calculator</h1>
-  <h1 id="score"></h1>
+<body style="background-image:url('images/heart.png'); background-size:cover;">
+  <section>
 
-  <form name="myForm" action="" method="post" onclick="return myFunction">
-    <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <h2 class="subHeading">Your name.</h2>
-        <input id = "text" class="inputText" type="text" name="myName" placeholder="your name">
-      </div>
-      <div class="col-lg-6 col-md-6">
-        <h2 class="subHeading">Your crush.</h2>
-        <input id="text1" class="inputText" type="text" name="myName" placeholder="crush name">
-      </div>
-    </div>
-    </form>
-  <button id="loveButton" onclick=" myFunction()" type="submit" class="btn btn-success btn-lg">Calculate love score</button>
+    <h1 class="mainHeading">Love Calculator</h1>
+    <h1 id="score"></h1>
 
-  <p class="subHeading">Enter your name and your crush name to calculate love percentage between you two.</p>
+    <form name="myForm" action="" method="post" onclick="return myFunction">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h2 class="subHeading">Your name.</h2>
+          <input id = "text" class="inputText" type="text" name="myName" placeholder="your name">
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <h2 class="subHeading">Your crush.</h2>
+          <input id="text1" class="inputText" type="text" name="myName" placeholder="crush name">
+        </div>
+      </div>
+      </form>
+    <button id="loveButton" onclick=" myFunction()" type="submit" class="btn btn-success btn-lg">Calculate love score</button>
+
+    <p class="subHeading">Enter your name and your crush name to calculate love percentage between you two.</p>
+    <p class="developerName">thupden</p>
+  </section>
 </body>
 
 </html>

@@ -1,8 +1,12 @@
 body{
-background-color:#ffbaba;
 text-align:center;
 /*color:#f0134d;*/
 color:white;
+font-size:25px;
+}
+section{
+  width:80%;
+  margin:0 auto;
 }
 .containerField
 {
@@ -16,9 +20,6 @@ color:white;
 }
 .subHeading{
   font-family: 'Ubuntu', sans-serif;
-  margin-top:80px;
-  font-size:2rem;
-  line-height:1.5;
 }
 p{
   margin-top:80px;
@@ -26,7 +27,7 @@ p{
 
 .inputText{
   color:#d15a7c;
-  width:400px;
+  width:90%;
   background-color:#f1fcfc;
   margin:20px auto;
   padding:3px 10px;
@@ -36,13 +37,21 @@ p{
   font-family: 'Ubuntu', sans-serif;
   margin-top: 80px;
   border:1px solid;
-}
-@media (max-width:1080px)
-{
-  body{
-  font-size:30px;
-}
+  padding:5px 10px;
+  font-size:25px;
 }
 #score{
   margin-bottom:20px;
+}
+.developerName{
+  color:black;
+  text-align:right;
+  font-family: 'Satisfy', cursive;
+}
+
+@media (max-width:1080px;)
+{
+  .mainHeading{
+    font-size:3.5rem;
+  }
 }
