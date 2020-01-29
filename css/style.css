@@ -34,9 +34,9 @@ color:white;
 }
 @media (max-width:1080px)
 {
-  .mainHeading{
-    margin:50px auto 20px auto;
-  }
+  body{
+  font-size:25px;
+}
 }
 #score{
   margin-bottom:20px;
