@@ -1,0 +1,43 @@
+body{
+background-color:#ffbaba;
+text-align:center;
+font-size:20px;
+/*color:#f0134d;*/
+color:white;
+}
+.containerField
+{
+  width:100%;
+}
+.mainHeading{
+  font-family: 'Lobster', cursive;
+  font-size:3.5rem;
+  line-height:1.5;
+  margin:150px auto 80px auto;
+}
+.subHeading{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.inputText{
+  color:#d15a7c;
+  width:400px;
+  background-color:#f1fcfc;
+  margin:10px auto;
+  padding:3px 10px;
+}
+.btn{
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 40px auto;
+  border:1px solid;
+}
+@media (max-width:1080px)
+{
+  .mainHeading{
+    margin:50px auto 20px auto;
+  }
+}
+#score{
+  margin-bottom:20px;
+}
